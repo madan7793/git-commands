@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_git_commands_1690814804404-push-trigger-input-set
+  identifier: Build_git_commands_1690814804404pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: testing
+  pipeline:
+    identifier: Build_git_commands_1690814804404
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
